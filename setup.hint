@@ -1,0 +1,7 @@
+category: KDE Net
+requires: libgcc1 libqoauth1 libQtCore4 libQtDBus4 libQtGui4 libQtNetwork4 libQtXml4 libstdc++6 libX11_6
+sdesc: "Qt4 Twitter/Identi.ca client"
+ldesc: "qTwitter is an application interacting with microblogging 
+services, such as Twitter, Identi.ca and others based on StatusNet 
+application (former laconica). It aims to be as compact as possible 
+still providing outstanding usability."

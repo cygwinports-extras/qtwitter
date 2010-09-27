@@ -1,0 +1,8 @@
+inherit qt4-qmake
+
+DESCRIPTION="Qt4 Twitter/Identi.ca client"
+HOMEPAGE="http://blog.ayoy.net/qtwitter"
+SRC_URI="http://files.ayoy.net/qtwitter/release/${PV}/src/${P}-src.tar.gz"
+PATCH_URI="0.10.0-no-undefined.patch"
+
+CYGQMAKE4_ARGS="PREFIX=/usr"

@@ -1,0 +1,10 @@
+--- origsrc/qtwitter-0.10.0/qtwitter-app/qtwitter-app.pro	2009-11-01 08:08:42.000000000 -0600
++++ src/qtwitter-0.10.0/qtwitter-app/qtwitter-app.pro	2010-09-26 23:36:04.231938000 -0500
+@@ -80,6 +80,7 @@ macx {
+     LIBS += -framework twitterapi
+ }
+ else:unix {
++    LIBS += -lX11
+     LIBS += -L$${DESTDIR} \
+         -Wl,-rpath,$${DESTDIR} \
+         $$TWITTERAPI_LIB
